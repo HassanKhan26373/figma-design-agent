@@ -1,0 +1,29 @@
+{
+  "name": "figma-design-agent",
+  "version": "0.1.0",
+  "description": "AI design agent using Claude + Figma MCP. Acts like a senior product designer that controls Figma autonomously.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "agent": "node src/cli.js"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "mcp",
+    "figma",
+    "ai-agent",
+    "design-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
